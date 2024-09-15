@@ -31,7 +31,6 @@ public class Simulacion{
 
         Random r = new Random();
 
-  
         int llegada = r.nextInt(2) + 3;// 0+3 o 1+3 representa la llegada en 3 o 4 minutos
         cliente_arribando = new Cliente(r.nextInt(60000) + 1, llegada);
 
